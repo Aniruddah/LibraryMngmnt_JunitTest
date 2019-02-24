@@ -42,6 +42,12 @@ public class BookModel {
 	public void setBookQuantity(int bookQuantity) {
 		this.bookQuantity = bookQuantity;
 	}
+
+	@Override
+	public String toString() {
+		return "BookModel [bookId=" + bookId + ", bookName=" + bookName + ", bookAuthorName=" + bookAuthorName
+				+ ", bookQuantity=" + bookQuantity + "]";
+	}
 	
 	
 	
