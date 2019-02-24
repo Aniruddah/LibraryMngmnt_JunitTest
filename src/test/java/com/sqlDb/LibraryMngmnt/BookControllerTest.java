@@ -63,7 +63,7 @@ public class BookControllerTest {
 		bookModel.setAuthorName("abcx");//expected
 		bookModel.setBookQuantity(3);//expected
 		bookController.update();
-		
+	
 		
 		assertEquals(bookModel.getAuthorName(), bookController.bookList.get(0).getAuthorName());
 		assertEquals(bookModel.getName(), bookController.bookList.get(0).getName());
